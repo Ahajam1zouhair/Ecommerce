@@ -35,7 +35,7 @@ export default function NavBar() {
             </Offcanvas.Header>
             <Offcanvas.Body>
               <Nav className="justify-content-end flex-grow-1 pe-3">
-                <Nav.Link href="#action1" onClick={() => nevgiroe("/Ecommerce")}>
+                <Nav.Link href="#action1" onClick={() => nevgiroe("/")}>
                   Home
                 </Nav.Link>
                 <Nav.Link

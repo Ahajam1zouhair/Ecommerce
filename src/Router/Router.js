@@ -18,7 +18,7 @@ export default function Router() {
           <NavBar />
 
           <Routes>
-            <Route path="/Ecommerce" Component={Home} />
+            <Route path="/" Component={Home} />
             <Route path="/proudact/:id" Component={PajeCommender} />
             <Route path="/newproidacts" Component={PajeNew} />
             <Route path="/categorie/:id" Component={Categotie} />
