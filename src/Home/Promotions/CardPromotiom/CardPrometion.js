@@ -6,6 +6,8 @@ import {
   MDBCard,
   MDBCardBody,
   MDBRipple,
+  MDBCardImage,
+  MDBCardFooter,
 } from "mdb-react-ui-kit";
 import { Link, useNavigate } from "react-router-dom";
 
@@ -52,16 +54,19 @@ export default function CardPromotion() {
                   rippleTag="div"
                   className="bg-image rounded hover-zoom "
                 >
-                  <img
+                  {/* <img
                     src={obj.src}
                     fluid
-                    style={{ width: " 80%", height: "300px" }}
+                    style={{ width: " 80%", height: "250px" }}
+                  /> */}
+                  <MDBCardImage
+                    src={obj.src}
+                    fluid
+                    style={{ width: " 80%", height: "250px" }}
                   />
                 </MDBRipple>
                 <MDBCardBody>
-                  <a className="text-reset">
-                    <h5 className="card-title mb-3">{obj.Name}</h5>
-                  </a>
+                  <h5 className="card-title mb-3">{obj.Name}</h5>
                   <h3>
                     <span
                       className="badge bg-danger"
@@ -74,11 +79,16 @@ export default function CardPromotion() {
                       {obj.Réduction}%
                     </span>
                   </h3>
-                  <h6 className="mb-3">
-                    <s>${obj.Prix}</s>
-                    <h3 className="ms-2 text-danger">${CaullclePrix(obj.Prix, obj.Réduction)}</h3>
-                  </h6>
+                  
                 </MDBCardBody>
+                <MDBCardFooter>
+                <h6 className="mb-3">
+                    <s>${obj.Prix}</s>
+                    <h3 className="ms-2 text-danger">
+                      ${CaullclePrix(obj.Prix, obj.Réduction)}
+                    </h3>
+                  </h6>
+              </MDBCardFooter>
               </MDBCard>
             </MDBCol>
           )

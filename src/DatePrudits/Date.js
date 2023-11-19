@@ -5,7 +5,7 @@ import SteelSeries from "./ImageElectronique/SteelSeries .jpg";
 import JBL from "./ImageElectronique/JBL Flip 5.jpg";
 import Dell from "./ImageElectronique/Dell XPS 13jpg.jpg";
 import PlayStation from "./ImageElectronique/PlayStation 5.jpg";
-import Garmin from "./ImageElectronique/Garmin Forerunner 945.jpg";
+import Garmin from "./ImageElectronique/Garmin Forerunner 2.jpg";
 import Iphone14 from "./ImageElectronique/iphone-14.webp";
 // image Vitemont
 import Chemise from "./ImageVetements/chemises.webp";
@@ -121,7 +121,6 @@ const DatePrudits = [
   {
     useID: 1,
     ID: 6,
-    Nouveau: true,
     promtion: true,
     Marque: "Dell",
     Modèle: "Modèle : Dell XPS 13",
@@ -171,19 +170,6 @@ const DatePrudits = [
     Description:
       "Une chemise en coton élégante avec des manches longues, parfaite pour les occasions formelles.",
     src: Chemise,
-  },
-  {
-    useID: 2,
-    ID: 10,
-    Name: "Robe de soirée à paillettes",
-    Marque: "Calvin Klein",
-    Genre: "Genre : Femmes",
-    Taille: "Taille : S",
-    Couleur: "Couleur : Noir",
-    Prix: 129.99,
-    Description:
-      "Une robe de soirée étincelante avec des paillettes, idéale pour les événements spéciaux.",
-    src: Robe,
   },
   {
     useID: 2,
@@ -264,20 +250,6 @@ const DatePrudits = [
       "Un pantalon de costume classique pour des occasions formelles.",
     src: Pantalon,
   },
-  {
-    useID: 2,
-    ID: 17,
-    Name: "Jupe plissée midi",
-    Marque: "Zara",
-    Genre: "Genre : Femmes",
-    Taille: "Taille : M",
-    Couleur: "Couleur : Bleu marine",
-    Prix: 49.99,
-    Description:
-      "Une jupe plissée midi élégante pour un look tendance et polyvalent.",
-    src: Jupe,
-  },
-
   {
     useID: 3,
     src: Mixeur,
@@ -386,7 +358,7 @@ const DatePrudits = [
   },
   {
     useID: 3,
-    ID: 26,
+    ID: 11,
     Nouveau: true,
     src: Moulin,
     Name: "Moulin à café électrique",
@@ -399,7 +371,7 @@ const DatePrudits = [
   },
   {
     useID: 3,
-    ID: 27,
+    ID: 17,
     HomeCUO: true,
     src: Machine2,
     Name: "Machine à glaçons portable",

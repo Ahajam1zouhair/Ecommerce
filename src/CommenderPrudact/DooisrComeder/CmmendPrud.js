@@ -5,6 +5,7 @@ import {
   MDBCardImage,
   MDBRow,
   MDBCol,
+  MDBRipple,
 } from "mdb-react-ui-kit";
 import DatePrudits from "../../DatePrudits/Date";
 import { useParams } from "react-router";
@@ -34,11 +35,17 @@ export default function DonnerPrudact({Show }) {
       {DatePrudits.filter((title) => title.ID == id).map((obj) => (
         <MDBRow className="g-0">
           <MDBCol md="5" className="imageCommender">
-            <MDBCardImage
+          <MDBRipple
+                rippleColor="light"
+                rippleTag="div"
+                className="bg-image rounded hover-zoom"
+              >
+                  <MDBCardImage
               src={obj.src}
               fluid
-              style={{ width: "100%", height: "80%" }}
+              style={{ width: "70%", height: "60%" }}
             />
+              </MDBRipple>
           </MDBCol>
           <MDBCol md="7" className="">
             <MDBCardBody>

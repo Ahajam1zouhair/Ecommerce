@@ -3,16 +3,17 @@ import Card from "react-bootstrap/Card";
 import CardGroup from "react-bootstrap/CardGroup";
 import DatePrudits from "../../DatePrudits/Date";
 import { useNavigate } from "react-router-dom";
+import { MDBCardImage, MDBRipple } from "mdb-react-ui-kit";
 
 export default function ProduitsConnexes() {
   function generateUniqueNumbers() {
-    const uniqueNumbers = new Set(); 
+    const uniqueNumbers = new Set();
     while (uniqueNumbers.size < 5) {
-      const randomNumber = Math.floor(Math.random() * 27) + 1; 
-      uniqueNumbers.add(randomNumber); 
+      const randomNumber = Math.floor(Math.random() * 25) + 1;
+      uniqueNumbers.add(randomNumber);
     }
 
-    return Array.from(uniqueNumbers); 
+    return Array.from(uniqueNumbers);
   }
 
   const uniqueNumbers = generateUniqueNumbers();
@@ -28,23 +29,30 @@ export default function ProduitsConnexes() {
           fontFamily: "Inter",
         }}
       >
-       Autres
+        Autres
       </h3>
       <CardGroup>
         {DatePrudits.filter(
           (num) =>
-            num.ID == uniqueNumbers[0] ||
-            num.ID == uniqueNumbers[1] ||
-            num.ID == uniqueNumbers[2] ||
-            num.ID == uniqueNumbers[3] ||
-            num.ID == uniqueNumbers[4]
+            num.ID === uniqueNumbers[0] ||
+            num.ID === uniqueNumbers[1] ||
+            num.ID === uniqueNumbers[2] ||
+            num.ID === uniqueNumbers[3] ||
+            num.ID === uniqueNumbers[4]
         ).map((elem) => (
           <Card onClick={() => navigate(`/proudact/${elem.ID}`)}>
-            <Card.Img
-              variant="top"
-              src={elem.src}
-              style={{ width: "200px", height: "200px" }}
-            />
+            <MDBRipple
+              rippleColor="light"
+              rippleTag="div"
+              className="bg-image rounded hover-zoom"
+            >
+              <MDBCardImage
+                src={elem.src}
+                style={{ width: "200px", height: "200px" }}
+                position="top"
+                alt="Laptop"
+              />
+            </MDBRipple>
             <Card.Body>
               <Card.Title>{elem.Name}</Card.Title>
             </Card.Body>

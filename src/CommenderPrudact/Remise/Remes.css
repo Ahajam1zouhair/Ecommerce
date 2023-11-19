@@ -1,27 +1,13 @@
 .Body {
-  height: 120px;
+
   background: #005ade;
-  border-radius: 8px;
-  display: flex;
-  margin-top: 50px;
-  padding: 17px;
-  margin-bottom: 50px;
-  color: rgb(255, 249, 249);
 }
 .RemesCardButton {
-
-  height: 40px;
-  padding-left: 16px;
-  padding-right: 16px;
   background: #ff9017;
-  border-radius: 6px;
-  display: flex;
+  border-radius: 16px;
   text-align: center;
   color: white;
   font-size: 20px;
-  position: absolute;
-  left: 70%;
-  margin: 17px;
 }
 .Title {
   color: rgb(255, 249, 249);

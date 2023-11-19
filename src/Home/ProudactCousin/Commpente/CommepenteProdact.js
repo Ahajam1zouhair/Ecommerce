@@ -7,6 +7,7 @@ import {
   MDBCardBody,
   MDBCardImage,
   MDBRipple,
+  MDBCardFooter,
 } from "mdb-react-ui-kit";
 import DatePrudits from "../../../DatePrudits/Date";
 import { Link, useNavigate } from "react-router-dom";
@@ -23,7 +24,7 @@ function CommepenteProdact() {
             className="mb-2"
             onClick={() => navigate(`proudact/${obj.ID}`)}
           >
-            <MDBCard>
+            <MDBCard  className="h-100">
               <MDBRipple
                 rippleColor="light"
                 rippleTag="div"
@@ -38,11 +39,12 @@ function CommepenteProdact() {
                 >
                   <h5 className="card-title mb-3">{obj.Name}</h5>
                 </Link>
-
-                <h6 className="mb-3">
+              </MDBCardBody>
+              <MDBCardFooter>
+              <h6 className="mb-3">
                   <h4 className="ms-2 text-danger">${obj.Prix}</h4>
                 </h6>
-              </MDBCardBody>
+              </MDBCardFooter>
             </MDBCard>
           </MDBCol>
         ))}

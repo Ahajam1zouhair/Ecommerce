@@ -6,6 +6,7 @@ import {
   MDBCard,
   MDBCardBody,
   MDBCardImage,
+  MDBRipple,
 } from "mdb-react-ui-kit";
 import DatePrudits from "../DatePrudits/Date";
 import { useNavigate } from "react-router";
@@ -31,12 +32,19 @@ function App() {
                   <p className="text-white mb-0 small">New</p>
                 </div>
               </div>
-              <MDBCardImage
+              <MDBRipple
+                rippleColor="light"
+                rippleTag="div"
+                className="bg-image rounded hover-zoom"
+              >
+                <MDBCardImage
                 src={obj.src}
                 position="top"
                 alt="Laptop"
                 style={{ width: "300px", height: "300px" }}
               />
+              </MDBRipple>
+              
               <MDBCardBody>
                 <div className="d-flex justify-content-between mb-3">
                   <h5 className="text-dark mb-0">${obj.Prix}</h5>

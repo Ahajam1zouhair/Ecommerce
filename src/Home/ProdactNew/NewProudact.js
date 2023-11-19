@@ -6,6 +6,8 @@ import {
   MDBCard,
   MDBCardBody,
   MDBCardImage,
+  MDBRipple,
+  MDBCardFooter,
 } from "mdb-react-ui-kit";
 import DatePrudits from "../../DatePrudits/Date";
 import { Link, useNavigate } from "react-router-dom";
@@ -20,7 +22,8 @@ function NewProudact() {
             <div className="category-content-flex-tittle">
               <h3 className="category-item-title-title">
                 {/* Link New */}
-                <Link to='newproidacts'
+                <Link
+                  to="newproidacts"
                   style={{
                     color: "rgb(27, 139, 231)",
                     display: "flex",
@@ -44,11 +47,9 @@ function NewProudact() {
             md="12"
             lg="4"
             className="mb-4 mb-lg-3"
-            onClick={() =>
-              navigate(`proudact/${obj.ID}`)
-            }
+            onClick={() => navigate(`proudact/${obj.ID}`)}
           >
-            <MDBCard>
+            <MDBCard className="h-100">
               <div className="d-flex justify-content-between p-3">
                 <p className="lead mb-0">{obj.Name}</p>
                 <div
@@ -58,19 +59,23 @@ function NewProudact() {
                   <p className="text-white mb-0 small">New</p>
                 </div>
               </div>
-              <MDBCardImage
-                src={obj.src}
-                position="top"
-                style={{ width: "235px", height: "235px" }}
-              />
+
               <MDBCardBody>
+                <MDBRipple
+                  rippleColor="light"
+                  rippleTag="div"
+                  className="bg-image rounded hover-zoom"
+                >
+                  <MDBCardImage src={obj.src} fluid className="w-60" />
+                </MDBRipple>
+              </MDBCardBody>
+
+              <MDBCardFooter>
                 <div className="d-flex justify-content-between mb-3">
                   <h5 className="mb-0">Prix</h5>
                   <h5 className="text-dark mb-0">${obj.Prix}</h5>
                 </div>
-
-                <div class="d-flex justify-content-between mb-2"></div>
-              </MDBCardBody>
+              </MDBCardFooter>
             </MDBCard>
           </MDBCol>
         ))}
