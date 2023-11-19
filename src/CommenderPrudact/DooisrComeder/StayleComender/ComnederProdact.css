@@ -1,0 +1,62 @@
+.imageCommender {
+  width: 400px;
+  height: 500px;
+  background: white;
+  border-radius: 6px;
+  border: 1px #dee2e7 solid;
+}
+.Name {
+  width: 384px;
+  color: #1c1c1c;
+  font-size: 25px;
+  font-family: Inter;
+  font-weight: 600;
+  line-height: 28px;
+  word-wrap: break-word;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.lesDonners {
+  color: #505050;
+  font-size: 16px;
+  font-family: Inter;
+  font-weight: 400;
+  word-wrap: break-word;
+  position: relative;
+  left: 20px;
+}
+.quantité {
+  width: 384px;
+  color: #1c1c1c;
+  font-size: 25px;
+  font-family: Inter;
+  font-weight: 600;
+  line-height: 28px;
+  word-wrap: break-word;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Totale {
+  padding: 20px;
+  font-size: 25px;
+  font-family: Inter;
+  font-weight: 400;
+  word-wrap: break-word;
+  position: relative;
+  left: 20px;
+  color: red;
+}
+.Add{
+  width: 384px;
+  color: #1c1c1c;
+  font-size: 25px;
+  font-family: Inter;
+  font-weight: 600;
+  line-height: 28px;
+  word-wrap: break-word;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

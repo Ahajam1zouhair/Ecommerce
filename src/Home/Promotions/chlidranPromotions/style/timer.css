@@ -1,0 +1,40 @@
+
+.pragraf {
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  font-family: Inter;
+  font-weight: 600;
+  line-height: 28px;
+  word-wrap: break-word;
+  display:flex;
+  justify-content: center;
+align-items: center;
+}
+.flex-container {
+  display: flex;
+  justify-content: center;
+align-items: center;
+}
+.time {
+  width: 70px;
+  height: 60px;
+  background: rgb(249, 254, 255);
+  border-radius: 40%;
+  margin: 3px;
+}
+.timer {
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  font-family: Inter;
+  font-weight: 700;
+  word-wrap: break-word;
+}
+.days {
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-size: 15px;
+  font-family: Inter;
+  font-weight: 400;
+  word-wrap: break-word;
+}

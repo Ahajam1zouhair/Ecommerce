@@ -1,0 +1,18 @@
+.elctronice-image {
+  background-image: url('./pexels-elvis-2528118.jpg');
+  background-color: #cccccc;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(17, 14, 14);
+}
