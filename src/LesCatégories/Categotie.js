@@ -25,21 +25,21 @@ export default function Categotie() {
               md="12"
               lg="4"
               className="mb-4 mb-lg-0 mt-4"
-              onClick={() => navigate(`/proudact/${obj.ID}`)}
+              onClick={() => navigate(`/Ecommerce/proudact/${obj.ID}`)}
             >
               <MDBCard>
-              <MDBRipple
-                rippleColor="light"
-                rippleTag="div"
-                className="bg-image rounded hover-zoom"
-              >
-                <MDBCardImage
-                src={obj.src}
-                position="top"
-                alt="Laptop"
-                style={{ width: "300px", height: "300px" }}
-              />
-              </MDBRipple>
+                <MDBRipple
+                  rippleColor="light"
+                  rippleTag="div"
+                  className="bg-image rounded hover-zoom"
+                >
+                  <MDBCardImage
+                    src={obj.src}
+                    position="top"
+                    alt="Laptop"
+                    style={{ width: "300px", height: "300px" }}
+                  />
+                </MDBRipple>
 
                 <MDBCardBody>
                   <div className="d-flex justify-content-between mb-3">
@@ -49,16 +49,15 @@ export default function Categotie() {
                   <div class="d-flex justify-content-between mb-2">
                     <h5 class="text-muted mb-0">{obj.Name}</h5>
                   </div>
-                  
                 </MDBCardBody>
                 <MDBCardFooter>
-               <button
+                  <button
                     type="button"
                     class="btn btn-primary btn-lg btn-block"
                   >
                     commander
                   </button>
-              </MDBCardFooter>
+                </MDBCardFooter>
               </MDBCard>
             </MDBCol>
           ))}

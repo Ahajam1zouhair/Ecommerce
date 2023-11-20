@@ -1,16 +1,17 @@
 import React from "react";
 import "./imagrStayle.css";
-// import { useNavigate } from "react-router";
+import { useNavigate } from "react-router";
+
 
 export default function ImageCommente() {
-  // const navigate = useNavigate()
+  const navigate = useNavigate()
   return (
 
     <>
-      <div class="hero-image">
-        <div class="hero-text">
+      <div className="hero-image">
+        <div className="hero-text">
           <h3>Maison et extérieur</h3>
-          <button type="button" class="btn btn-primary btn-lg" >
+          <button type="button"  onClick={()=> navigate(`categorie/${3}`)}  className="btn btn-primary btn-lg" >
             Source maintenant
           </button>
         </div>

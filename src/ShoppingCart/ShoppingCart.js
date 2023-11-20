@@ -117,7 +117,7 @@ export default function ShoppingCart() {
                           <h6 className="text-success">Free shipping</h6>
                           <div className="d-flex flex-column mt-4">
                             <MDBBtn
-                              onClick={() => navigater(`/proudact/${obj.ID}`)}
+                              onClick={() => navigater(`/Ecommerce/proudact/${obj.ID}`)}
                               color="primary"
                               size="sm"
                             >

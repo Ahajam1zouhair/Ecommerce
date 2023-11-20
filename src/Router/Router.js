@@ -16,16 +16,14 @@ export default function Router() {
       <BrowserRouter>
         <ShopCrad>
           <NavBar />
-
           <Routes>
-            <Route path="/" Component={Home} />
-            <Route path="/proudact/:id" Component={PajeCommender} />
+            <Route path="/Ecommerce" Component={Home} />
+            <Route path="/Ecommerce/proudact/:id" Component={PajeCommender} />
             <Route path="/newproidacts" Component={PajeNew} />
             <Route path="/categorie/:id" Component={Categotie} />
             <Route path="/login" Component={Login} />
             <Route path="/mycart" Component={ShoppingCart} />
           </Routes>
-
           <Footer />
         </ShopCrad>
       </BrowserRouter>

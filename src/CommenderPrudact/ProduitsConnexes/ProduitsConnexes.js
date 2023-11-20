@@ -40,7 +40,7 @@ export default function ProduitsConnexes() {
             num.ID === uniqueNumbers[3] ||
             num.ID === uniqueNumbers[4]
         ).map((elem) => (
-          <Card onClick={() => navigate(`/proudact/${elem.ID}`)}>
+          <Card onClick={() => navigate(`/Ecommerce/proudact/${elem.ID}`)}>
             <MDBRipple
               rippleColor="light"
               rippleTag="div"

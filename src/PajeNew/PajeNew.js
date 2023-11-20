@@ -21,7 +21,7 @@ function App() {
             md="12"
             lg="4"
             className="mb-4 mb-lg-0 mt-4"
-            onClick={() => navigate(`/proudact/${obj.ID}`)}
+            onClick={() => navigate(`/Ecommerce/proudact/${obj.ID}`)}
           >
             <MDBCard>
               <div className="d-flex justify-content-between p-3">
