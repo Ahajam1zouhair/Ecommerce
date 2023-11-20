@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Ecommerce/static/css/main.569608d1.css",
-    "main.js": "/Ecommerce/static/js/main.d955e77c.js",
+    "main.css": "/Ecommerce/static/css/main.60b2e3d8.css",
+    "main.js": "/Ecommerce/static/js/main.b2f3fd51.js",
     "static/media/pexels-yan-krukau-5793953.jpg": "/Ecommerce/static/media/pexels-yan-krukau-5793953.ccd54ae567691a58bf7e.jpg",
     "static/media/pexels-elvis-2528118.jpg": "/Ecommerce/static/media/pexels-elvis-2528118.e99e7bf987919cb4c9b4.jpg",
     "static/media/pexels-hakim-santoso-3634740.jpg": "/Ecommerce/static/media/pexels-hakim-santoso-3634740.030c271056c430abae23.jpg",
@@ -17,12 +17,12 @@
     "static/media/fa-brands-400.woff2": "/Ecommerce/static/media/fa-brands-400.878f31251d960bd6266f.woff2",
     "static/media/JBL Flip 5.jpg": "/Ecommerce/static/media/JBL Flip 5.a1e093e34b62a9e26d22.jpg",
     "static/media/apple-iphone-13.png": "/Ecommerce/static/media/apple-iphone-13.384df7cf703371e8f0bd.png",
+    "static/media/Garmin Forerunner 2.jpg": "/Ecommerce/static/media/Garmin Forerunner 2.4ba7b7462165ec841c19.jpg",
     "static/media/Chemisier en soie .jpg": "/Ecommerce/static/media/Chemisier en soie .b0d884bb0e332fc60e1b.jpg",
     "static/media/fa-regular-400.ttf": "/Ecommerce/static/media/fa-regular-400.50701fbb8177c2dde530.ttf",
     "static/media/Mixeur.png": "/Ecommerce/static/media/Mixeur.6a18634960121975e14c.png",
     "static/media/Robe webp.webp": "/Ecommerce/static/media/Robe webp.f26f2832dca44878f2de.webp",
     "static/media/Batteur.jpg": "/Ecommerce/static/media/Batteur.47b9d2991526cf11649f.jpg",
-    "static/media/Garmin Forerunner 945.jpg": "/Ecommerce/static/media/Garmin Forerunner 945.b62d72d1ac4ffcc5f73a.jpg",
     "static/media/Cafetière.jpg": "/Ecommerce/static/media/Cafetière.14f326d263614de07dfe.jpg",
     "static/media/Jupe plissée midi.jpg": "/Ecommerce/static/media/Jupe plissée midi.52dca7b25bd7cea680c3.jpg",
     "static/media/samsung.jpg": "/Ecommerce/static/media/samsung.626517a1eb444baf9c16.jpg",
@@ -40,11 +40,11 @@
     "static/media/Machine.webp": "/Ecommerce/static/media/Machine.c8da6242f01efece01e1.webp",
     "static/media/fa-v4compatibility.woff2": "/Ecommerce/static/media/fa-v4compatibility.1bac2991f3dbfa237aec.woff2",
     "index.html": "/Ecommerce/index.html",
-    "main.569608d1.css.map": "/Ecommerce/static/css/main.569608d1.css.map",
-    "main.d955e77c.js.map": "/Ecommerce/static/js/main.d955e77c.js.map"
+    "main.60b2e3d8.css.map": "/Ecommerce/static/css/main.60b2e3d8.css.map",
+    "main.b2f3fd51.js.map": "/Ecommerce/static/js/main.b2f3fd51.js.map"
   },
   "entrypoints": [
-    "static/css/main.569608d1.css",
-    "static/js/main.d955e77c.js"
+    "static/css/main.60b2e3d8.css",
+    "static/js/main.b2f3fd51.js"
   ]
 }
