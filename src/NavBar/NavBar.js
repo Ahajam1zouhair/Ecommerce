@@ -40,19 +40,19 @@ export default function NavBar() {
                 </Nav.Link>
                 <Nav.Link
                   href="#action2"
-                  onClick={() => nevgiroe("newproidacts")}
+                  onClick={() => nevgiroe("/Ecommerce/newproidacts")}
                 >
                   New
                 </Nav.Link>
 
                 <NavDropdown title="Catégories" id="navbarScrollingDropdown">
-                  <NavDropdown.Item onClick={() => nevgiroe(`categorie/${1}`)}>
+                  <NavDropdown.Item onClick={() => nevgiroe(`/Ecommerce/categorie/${1}`)}>
                     Électronique
                   </NavDropdown.Item>
-                  <NavDropdown.Item onClick={() => nevgiroe(`categorie/${2}`)}>
+                  <NavDropdown.Item onClick={() => nevgiroe(`/Ecommerce/categorie/${2}`)}>
                     Vêtements
                   </NavDropdown.Item>
-                  <NavDropdown.Item onClick={() => nevgiroe(`categorie/${3}`)}>
+                  <NavDropdown.Item onClick={() => nevgiroe(`/Ecommerce/categorie/${3}`)}>
                     Cuisine
                   </NavDropdown.Item>
                   <NavDropdown.Divider />

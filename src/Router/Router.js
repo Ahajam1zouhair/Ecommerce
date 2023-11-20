@@ -19,8 +19,8 @@ export default function Router() {
           <Routes>
             <Route path="/Ecommerce" Component={Home} />
             <Route path="/Ecommerce/proudact/:id" Component={PajeCommender} />
-            <Route path="/newproidacts" Component={PajeNew} />
-            <Route path="/categorie/:id" Component={Categotie} />
+            <Route path="/Ecommerce/newproidacts" Component={PajeNew} />
+            <Route path="/Ecommerce/categorie/:id" Component={Categotie} />
             <Route path="/login" Component={Login} />
             <Route path="/mycart" Component={ShoppingCart} />
           </Routes>

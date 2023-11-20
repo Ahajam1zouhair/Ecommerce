@@ -38,7 +38,7 @@ export default function ImagePromotion() {
                     <div id="day" className="timer_num mt-4">
                       <PromoImage />
                     </div>
-                    <Button variant="danger" size="lg" className="mt-4" onClick={()=>navigator(`/proudact/40`)} >Commandez maintenant</Button>
+                    <Button variant="danger" size="lg" className="mt-4" onClick={()=>navigator(`/Ecommerce/proudact/40`)} >Commandez maintenant</Button>
                   </li>
                 </ul>
               </div>

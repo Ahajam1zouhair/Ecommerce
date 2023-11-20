@@ -11,7 +11,7 @@ export default function ImageCommente() {
       <div className="hero-image">
         <div className="hero-text">
           <h3>Maison et extérieur</h3>
-          <button type="button"  onClick={()=> navigate(`categorie/${3}`)}  className="btn btn-primary btn-lg" >
+          <button type="button"  onClick={()=> navigate(`/Ecommerce/categorie/${3}`)}  className="btn btn-primary btn-lg" >
             Source maintenant
           </button>
         </div>

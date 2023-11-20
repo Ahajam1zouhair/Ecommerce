@@ -52,7 +52,7 @@ export default function Footer() {
                 </Link>
               </p>
               <p>
-                <Link to="/newproidacts" className="text-reset">
+                <Link to="/Ecommerce/newproidacts" className="text-reset">
                   New
                 </Link>
               </p>
@@ -61,17 +61,17 @@ export default function Footer() {
             <MDBCol md="3" lg="2" xl="2" className="mx-auto mb-4">
               <h6 className="text-uppercase fw-bold mb-4">Les Catégories</h6>
               <p>
-                <Link to={`categorie/${1}`} className="text-reset">
+                <Link to={`/Ecommerce/categorie/${1}`} className="text-reset">
                   Electronique
                 </Link>
               </p>
               <p>
-                <Link to={`categorie/${2}`} className="text-reset">
+                <Link to={`/Ecommerce/categorie/${2}`} className="text-reset">
                   Vêtements
                 </Link>
               </p>
               <p>
-                <Link to={`categorie/${3}`} className="text-reset">
+                <Link to={`/Ecommerce/categorie/${3}`} className="text-reset">
                   Cuisine
                 </Link>
               </p>
